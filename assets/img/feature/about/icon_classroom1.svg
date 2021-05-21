@@ -1,0 +1,16 @@
+<svg id="icon_classroom1.svg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #72c9f3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="楕円形_611_のコピー_8" data-name="楕円形 611 のコピー 8" class="cls-1" cx="50" cy="50" r="50"/>
+  <path id="シェイプ_731" data-name="シェイプ 731" class="cls-2" d="M426.285,9747.86h-3.457V9743h-7.316v4.86h-21.8L387,9761.46h46Zm-37.681,16V9789H405.49v-11.79h8.619V9789h17.338v-25.14H388.6Zm12.126,14.82h-7.466l0.05-8.15h7.416v8.15Zm25.956,0H419.27v-8.15h7.416v8.15Z" transform="translate(-360 -9716)"/>
+</svg>

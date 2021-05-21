@@ -1,0 +1,36 @@
+<svg id="bg_base.svg" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #c3e6f6;
+      }
+
+      .cls-1 {
+        opacity: 0.32;
+      }
+
+      .cls-2 {
+        opacity: 0.3;
+      }
+
+      .cls-3 {
+        fill: #eef7fb;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #72c9f3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="楕円形_611_のコピー_21" data-name="楕円形 611 のコピー 21" class="cls-1" cx="150" cy="150" r="150"/>
+  <circle id="楕円形_611_のコピー_20" data-name="楕円形 611 のコピー 20" class="cls-2" cx="150" cy="150" r="125"/>
+  <circle id="楕円形_611_のコピー_19" data-name="楕円形 611 のコピー 19" class="cls-1" cx="150" cy="150" r="100"/>
+  <circle id="楕円形_611_のコピー_15" data-name="楕円形 611 のコピー 15" class="cls-3" cx="150" cy="150" r="75"/>
+  <circle id="楕円形_687" data-name="楕円形 687" class="cls-4" cx="149" cy="142" r="11"/>
+  <path id="シェイプ_686" data-name="シェイプ 686" class="cls-5" d="M416.5,10944a15.659,15.659,0,0,0-12.408,25l11.453,15.5c0.028,0.1.072,0.1,0.1,0.1a1.129,1.129,0,0,0,1.806-.1c3.3-4.4,9.343-12.7,11.667-15.8h0.016a15.8,15.8,0,0,0,2.862-9.1A15.57,15.57,0,0,0,416.5,10944Zm0,24a8.4,8.4,0,1,1,8.362-8.4A8.353,8.353,0,0,1,416.5,10968Z" transform="translate(-267 -10817)"/>
+</svg>
