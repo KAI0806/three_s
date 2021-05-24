@@ -926,7 +926,8 @@ img {
   background-color: #fff;
   height: 90px;
   padding: 0;
-  z-index: 100; }
+  z-index: 100;
+}
   @media only screen and (max-width: 1023px) {
     .header {
       height: 50px; } }
@@ -947,7 +948,7 @@ img {
           -ms-flex-pack: center;
               justify-content: center; }
     .header__logo div {
-      height: 60px;
+      height: 0px;
       padding: 0 30px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -958,7 +959,8 @@ img {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      border-right: 1px solid #f5f5f5; }
+      /* border-right: 1px solid #f5f5f5; */
+     }
       @media only screen and (max-width: 1023px) {
         .header__logo div {
           height: 50px;
@@ -972,7 +974,7 @@ img {
     .header__logo img {
       display: block; }
     .header__logo .logo {
-      width: 136px; }
+      width: 250px; }
       @media only screen and (max-width: 1023px) {
         .header__logo .logo {
           width: 80px; } }
@@ -3446,7 +3448,11 @@ img.mfp-img {
       -webkit-animation: fadein 0.5s 2.5s cubic-bezier(0.77, 0, 0.175, 1);
               animation: fadein 0.5s 2.5s cubic-bezier(0.77, 0, 0.175, 1);
       -webkit-animation-fill-mode: both;
-              animation-fill-mode: both; }
+              animation-fill-mode: both; 
+      -ms-writing-mode: tb-rl;      
+      writing-mode: vertical-rl;
+      font-size: 25px; 
+      }
       .index .kv.view .kv__catch .img-wrap::before {
         -webkit-animation: fadein 0.5s 1.5s cubic-bezier(0.77, 0, 0.175, 1), kvblockIn 0.6s 2s cubic-bezier(0.77, 0, 0.175, 1), kvblockOut 0.6s 2.5s cubic-bezier(0.77, 0, 0.175, 1);
                 animation: fadein 0.5s 1.5s cubic-bezier(0.77, 0, 0.175, 1), kvblockIn 0.6s 2s cubic-bezier(0.77, 0, 0.175, 1), kvblockOut 0.6s 2.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -3606,6 +3612,13 @@ img.mfp-img {
     .index .kv__catch .img-wrap {
       position: relative;
       overflow: hidden; }
+    .index .kv__catch .img-wrap h1{
+      font-size: 30px;
+      letter-spacing: 10px;
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+      border-left: 1px solid rgb(238, 238, 238);
+    }
+/* 
       .index .kv__catch .img-wrap::before {
         content: "";
         width: 100%;
@@ -3615,10 +3628,8 @@ img.mfp-img {
         left: 0;
         top: 0;
         background-color: #fff;
-        z-index: 2; }
+        z-index: 2; } */
       .index .kv__catch .img-wrap:nth-child(1) {
-        width: 55px;
-        height: 307px;
         margin-left: 15px; }
         @media only screen and (max-width: 767px) {
           .index .kv__catch .img-wrap:nth-child(1) {
@@ -3626,8 +3637,6 @@ img.mfp-img {
             height: 250px;
             margin-left: 12px; } }
       .index .kv__catch .img-wrap:nth-child(2) {
-        width: 56px;
-        height: 307px;
         margin-left: 13px; }
         @media only screen and (max-width: 767px) {
           .index .kv__catch .img-wrap:nth-child(2) {
@@ -3635,8 +3644,8 @@ img.mfp-img {
             height: 250px;
             margin-left: 0; } }
       .index .kv__catch .img-wrap:nth-child(3) {
-        width: 38px;
-        height: 307px; }
+        margin-left: 5px;
+      }
         @media only screen and (max-width: 767px) {
           .index .kv__catch .img-wrap:nth-child(3) {
             width: 25px;
