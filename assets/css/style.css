@@ -937,7 +937,8 @@ img {
     left: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%); }
+            transform: translateY(-50%);
+          }
     .header__logo a {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3614,8 +3615,8 @@ img.mfp-img {
       position: relative;
       overflow: hidden; }
     .index .kv__catch .img-wrap h1{
-      font-size: 30px;
-      letter-spacing: 10px;
+      font-size: 40px;
+      letter-spacing: 15px;
       font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
       border-left: 1px solid rgb(238, 238, 238);
     }
