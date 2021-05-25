@@ -3618,8 +3618,8 @@ img.mfp-img {
       overflow: hidden; }
     .index .kv__catch .img-wrap h1{
       font-size: 38px;
-      letter-spacing: 15px;
-      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+        letter-spacing: 15px;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
       border-left: 1px solid rgb(238, 238, 238);
     }
 
@@ -4029,7 +4029,7 @@ img.mfp-img {
     position: absolute;
     left: 0;
     top: -4.1vw;
-    content: "Theme";
+    content: "Concept";
     font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
@@ -4045,7 +4045,7 @@ img.mfp-img {
         font-size: 15px; } }
   .banner__ttl::after {
     position: absolute;
-    left: 85px;
+    left: 100px;
     top: -5vw;
     counter-increment: number 1;
     content: counter(number, decimal-leading-zero);
@@ -4107,7 +4107,10 @@ img.mfp-img {
     left: 0;
     display: inline-block;
     height: 100%;
-    z-index: 2; }
+    z-index: 2;
+    font-size: 30px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  }
     .banner__ttl .img-wrap::before {
       content: "";
       width: 100%;
@@ -4729,7 +4732,7 @@ img.mfp-img {
           .sec--feature .banner__ttl__inner > div:nth-child(2) img {
             width: 45.33vw; } }
     .sec--feature .banner__ttl__inner > div:nth-child(3) {
-      max-width: 166px;
+      max-width: 220px;
       width: 11.527vw; }
       @media only screen and (max-width: 1023px) {
         .sec--feature .banner__ttl__inner > div:nth-child(3) {
