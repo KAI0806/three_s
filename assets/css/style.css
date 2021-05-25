@@ -963,13 +963,13 @@ img {
               justify-content: center;
       /* border-right: 1px solid #f5f5f5; */
      }
-      @media only screen and (max-width: 1023px) {
+      /* @media only screen and (max-width: 1023px) {
         .header__logo div {
           height: 50px;
           padding: 0 15px;
           border-right: none; } }
       .header__logo div:last-child {
-        border: none; }
+        border: none; } */
         @media only screen and (max-width: 1023px) {
           .header__logo div:last-child {
             padding-left: 0; } }
@@ -3590,7 +3590,7 @@ img.mfp-img {
         left: 0px;
         bottom: 30px;
         width: 146px;
-        padding: 30px;
+        padding: 15px;
         margin-bottom: 0; } }
   .index .kv__title {
     opacity: 0;
@@ -3604,7 +3604,7 @@ img.mfp-img {
     line-height: 1; }
     @media only screen and (max-width: 767px) {
       .index .kv__title {
-        font-size: 11px; } }
+        font-size: 5px; } }
   .index .kv__catch {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3619,6 +3619,13 @@ img.mfp-img {
     .index .kv__catch .img-wrap h1{
       font-size: 38px;
       letter-spacing: 15px;
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+      border-left: 1px solid rgb(238, 238, 238);
+    }
+
+    .index .sp-on .kv__catch .img-wrap h1{
+      font-size: 10px;
+      letter-spacing: 10px;
       font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
       border-left: 1px solid rgb(238, 238, 238);
     }
@@ -3638,14 +3645,15 @@ img.mfp-img {
         @media only screen and (max-width: 767px) {
           .index .kv__catch .img-wrap:nth-child(1) {
             width: 24px;
-            height: 250px;
-            margin-left: 12px; } }
+            height: 150px;
+            margin-left: 0;
+          } }
       .index .kv__catch .img-wrap:nth-child(2) {
         margin-left: 13px; }
         @media only screen and (max-width: 767px) {
           .index .kv__catch .img-wrap:nth-child(2) {
             width: 24px;
-            height: 250px;
+            height: 150px;
             margin-left: 0; } }
       .index .kv__catch .img-wrap:nth-child(3) {
         margin-left: 5px;
@@ -3653,7 +3661,7 @@ img.mfp-img {
         @media only screen and (max-width: 767px) {
           .index .kv__catch .img-wrap:nth-child(3) {
             width: 25px;
-            height: 219px; } }
+            height: 150; } }
   .index .kv .news {
     opacity: 0;
     display: -webkit-box;
