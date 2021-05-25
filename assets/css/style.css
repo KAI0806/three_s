@@ -4679,7 +4679,7 @@ img.mfp-img {
       width: auto;
       margin: 0 0 10px 8vw; } }
   .sec--feature .banner::after {
-    content: "FEATURE";
+    content: "COMPANY";
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
