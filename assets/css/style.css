@@ -2011,7 +2011,7 @@ img {
           .footer__navi .links__list a {
             font-size: 13px; } }
   .footer__business {
-    padding: 80px 0;
+    padding: 20px 0;
     background-color: #1e1e1e;
     color: #fff; }
     @media only screen and (max-width: 1023px) {
@@ -2197,6 +2197,11 @@ img {
               margin-right: 0; } }
           .footer__business .else .links li:last-child {
             margin-right: 0; }
+
+          .footer__business .wrap{
+            display: flex;
+            justify-content: space-between;
+          }
 
 .entry {
   position: relative;
@@ -4790,7 +4795,7 @@ img.mfp-img {
     .sec--work .banner::after {
       content: "BUSINESS CONTENTS";
       left: 50%;
-      top: -4.5vw;
+      top: -10%;
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%);
       word-break: keep-all;
