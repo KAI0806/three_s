@@ -1658,7 +1658,9 @@ img {
         min-width: inherit;
         padding: 0 8vw; } }
   .footer__recruit {
-    background-color: #f5f5f5; }
+    background-color: #f5f5f5;
+  margin-top: 150px;
+  }
     .footer__recruit .btn {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -4007,7 +4009,7 @@ img.mfp-img {
     letter-spacing: -0.04em; }
     @media only screen and (min-width: 1921px) {
       .banner::after {
-        font-size: 184px; } }
+        font-size: 148px; } }
     @media only screen and (max-width: 1439px) {
       .banner::after {
         font-size: 8.58vw; } }
@@ -4786,9 +4788,9 @@ img.mfp-img {
         width: auto;
         padding: 26.26vw 8vw 18vw; } }
     .sec--work .banner::after {
-      content: "WORK & STORY";
+      content: "BUSINESS CONTENTS";
       left: 50%;
-      top: -4.79vw;
+      top: -4.5vw;
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%);
       word-break: keep-all;
