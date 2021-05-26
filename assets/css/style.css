@@ -1824,6 +1824,11 @@ img {
           display: block; } }
     .footer__navi .links {
       width: 27.7%; }
+
+    .footer__navi .links:hover{
+      opacity: .5;
+      transition: all .2s ease-in-out;
+    }
       @media only screen and (max-width: 1023px) {
         .footer__navi .links {
           width: 100%;
