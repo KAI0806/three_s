@@ -4833,7 +4833,7 @@ img.mfp-img {
           .sec--work .banner__ttl__inner {
             height: 35.73vw; } }
         .sec--work .banner__ttl__inner > div:first-child {
-          max-width: 263px;
+          max-width: 270px;
           width: 18.263vw; }
           @media only screen and (max-width: 1023px) {
             .sec--work .banner__ttl__inner > div:first-child {
@@ -4844,7 +4844,7 @@ img.mfp-img {
               .sec--work .banner__ttl__inner > div:first-child img {
                 width: 47.06vw; } }
         .sec--work .banner__ttl__inner > div:nth-child(2) {
-          max-width: 140px;
+          max-width: 220px;
           width: 9.72vw; }
           @media only screen and (max-width: 1023px) {
             .sec--work .banner__ttl__inner > div:nth-child(2) {
@@ -4855,7 +4855,7 @@ img.mfp-img {
               .sec--work .banner__ttl__inner > div:nth-child(2) img {
                 width: 24.93vw; } }
         .sec--work .banner__ttl__inner > div:nth-child(3) {
-          max-width: 204px;
+          max-width: 220px;
           width: 14.16vw; }
           @media only screen and (max-width: 1023px) {
             .sec--work .banner__ttl__inner > div:nth-child(3) {
