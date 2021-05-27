@@ -115,7 +115,7 @@ $('.header__menu').on('click', function(e) {
         'height': wh - hh + 'px'
       });
       $('.header__navi .inner.navi').css({
-        'min-height': wh - hh - 140 + 'px'
+        'min-height': wh - hh  - 600 + 'px'
       });
     }
     $self.addClass('add_plus');
