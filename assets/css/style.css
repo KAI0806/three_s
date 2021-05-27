@@ -1404,6 +1404,11 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; }
+
+        .header__navi .navi .links__ttl:hover{
+          opacity: .5;
+          transition: all .2s ease-in-out;
+        }
         @media only screen and (max-width: 1439px) {
           .header__navi .navi .links__ttl {
             margin-bottom: 30px;
