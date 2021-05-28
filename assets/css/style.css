@@ -5790,46 +5790,44 @@ img.mfp-img {
             border-bottom: solid 1px rgba(255, 255, 255, .4); } }
     .message .philosophy__text_in {
       position: relative;
-      background-color: #fff;
-      padding: 80px;
+      width: 100%;
+      height: 500px;
       font-family: 'Noto Serif JP', serif;
       font-weight: 500;
-      font-size: 22px;
-      text-align: left;
+      font-size: 15px;
+      text-align: center;
+      border: 1px solid black;
       line-height: 2.18;
       letter-spacing: 0.15em;
       -webkit-box-shadow: 0px 10px 25px 0px rgba(29, 50, 68, .02);
               box-shadow: 0px 10px 25px 0px rgba(29, 50, 68, .02); }
       @media only screen and (max-width: 1023px) {
-        .message .philosophy__text dd {
+        .message .philosophy__text td {
           padding: 35px 20px;
           font-size: 13px;
           line-height: 1.8;
           letter-spacing: 0.09em; } }
-      .message .philosophy__text_in::after {
+    
+    .philosophy__text .out_line{
+      padding: 15px;
+      background: #fff;
+    }
+      /* .message .philosophy__text_in::after {
         content: "";
         position: absolute;
-        top: 10px;
-        left: 10px;
+        top: 20px;
+        left: 20px;
         display: block;
-        width: calc(100% - 20px);
-        height: calc(100% - 20px);
+        width: calc(100% - 50px);
+        height: calc(100% - 50px);
         border: solid 1px #1e1e1e; }
         @media only screen and (max-width: 1023px) {
           .message .philosophy__text_in::after {
             top: 5px;
             left: 5px;
             width: calc(100% - 10px);
-            height: calc(100% - 10px); } }
-      
-      .philosophy__text_in div{
-        display: flex;
-      }
+            height: calc(100% - 10px); } } */
 
-      .message .philosophy__text dd{
-        text-align: left;
-        margin-left: 50px;
-      }
 @media only screen and (max-width: 1023px) {
   .message .sec--feature .card-wrap .card:last-child {
     margin-bottom: 0; } }
