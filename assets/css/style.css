@@ -5795,7 +5795,7 @@ img.mfp-img {
       font-family: 'Noto Serif JP', serif;
       font-weight: 500;
       font-size: 22px;
-      text-align: center;
+      text-align: left;
       line-height: 2.18;
       letter-spacing: 0.15em;
       -webkit-box-shadow: 0px 10px 25px 0px rgba(29, 50, 68, .02);
@@ -5821,7 +5821,15 @@ img.mfp-img {
             left: 5px;
             width: calc(100% - 10px);
             height: calc(100% - 10px); } }
+      
+      .philosophy__text_in div{
+        display: flex;
+      }
 
+      .message .philosophy__text dd{
+        text-align: left;
+        margin-left: 50px;
+      }
 @media only screen and (max-width: 1023px) {
   .message .sec--feature .card-wrap .card:last-child {
     margin-bottom: 0; } }
