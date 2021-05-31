@@ -5908,6 +5908,11 @@ img.mfp-img {
       font-weight: 600;
     }
 
+    .discussion .formrun-embed{
+      margin: 70px auto;
+      padding-top: 70px;
+    }
+
     .discussion .kv__img {
       position: relative;
       z-index: 1;
