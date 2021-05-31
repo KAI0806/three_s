@@ -5913,6 +5913,12 @@ img.mfp-img {
       padding-top: 70px;
     }
 
+    .discussion .card_in{
+      background: #F2F2F2;
+      padding: 15px;
+      border-top: 5px solid #72c9f3;
+    }
+
     .discussion .kv__img {
       position: relative;
       z-index: 1;
@@ -6234,7 +6240,7 @@ img.mfp-img {
           .discussion .sec--profile .inner::after {
             display: none; } }
     .discussion .sec--profile .card {
-      width: 280px; }
+      width: 310px; }
       @media only screen and (max-width: 1023px) {
         .discussion .sec--profile .card {
           width: 100%;
