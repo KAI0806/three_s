@@ -14621,7 +14621,7 @@ img.mfp-img {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 480px;
+    width: 500px;
     padding: 68px 68px 15px 0;
     background-color: #fff;
     -webkit-animation: left 1s 0s ease forwards;
@@ -15593,7 +15593,7 @@ img.mfp-img {
             line-height: 1.8;
             letter-spacing: 0; } }
   .work .block--01 .block__list:nth-child(1) .block__list__ttl::before {
-    background: url("../img/work_and_story/work/icon_01_01.svg") no-repeat center;
+    background: url("../img/work_and_story/work/icon_01_03.svg") no-repeat center;
     background-size: cover; }
   .work .block--01 .block__list:nth-child(2) .block__list__ttl::before {
     background: url("../img/work_and_story/work/icon_01_02.svg") no-repeat center;
