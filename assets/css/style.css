@@ -10451,14 +10451,14 @@ img.mfp-img {
             font-size: 10px; } }
 
 .about .sec .feature__text {
-  width: calc(100% - 49.8vw);
+  width: calc(100%);
   margin: 0 auto 70px; }
   @media only screen and (max-width: 1023px) {
     .about .sec .feature__text {
       width: calc(100% - 16vw); } }
 
 .about .sec .feature__content {
-  margin: 0 16.6vw;
+  margin: 0;
   counter-reset: feature 0; }
   @media only screen and (max-width: 1023px) {
     .about .sec .feature__content {
@@ -10493,7 +10493,8 @@ img.mfp-img {
     display: block;
     width: 100%;
     height: calc(100% - 90px);
-    background-color: #dcf4ff; }
+    background-color: #C1B689; }
+
     @media only screen and (max-width: 1023px) {
       .about .sec .feature .content::before {
         right: inherit;
@@ -10542,9 +10543,71 @@ img.mfp-img {
         .about .sec .feature .content__ttl::after {
           margin: 0 0 0 10px;
           font-size: 27px; } }
+
+  .about .sec .feature .content__img01{
+    position: relative;
+    width: calc(100% - 8.3vw);
+    height: 800px;
+    background: url("../img/feature/about/img05.png") center center/cover;
+  }
+
+  .about .sec .feature .content__img02{
+    position: relative;
+    width: calc(100% - 8.3vw);
+    height: 800px;
+    background: url("../img/feature/about/img06.png") center center/cover;
+  }
+
+  .about .sec .feature .content__img03{
+    position: relative;
+    width: calc(100% - 8.3vw);
+    height: 800px;
+    background: url("../img/feature/about/img07.png") center center/cover;
+  }
+
+  .about .sec .feature .content__img01 .content__img_txt{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    text-orientation: upright;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    background: white;
+    letter-spacing: 10px;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .about .sec .feature .content__img02 .content__img_txt{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    text-orientation: upright;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    background: white;
+    letter-spacing: 10px;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .about .sec .feature .content__img03 .content__img_txt{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    text-orientation: upright;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    background: white;
+    letter-spacing: 10px;
+    font-size: 25px;
+    padding: 10px;
+  }
+
   .about .sec .feature .content__img {
     display: block;
-    width: calc(100% - 8.3vw); }
+    width: calc(100% - 8.3vw);
+  }
     @media only screen and (max-width: 1023px) {
       .about .sec .feature .content__img {
         width: 100%; } }
@@ -10552,12 +10615,13 @@ img.mfp-img {
     position: relative;
     z-index: 1;
     margin-top: -60px;
-    width: 640px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
     font-family: 'Noto Serif JP', serif;
     font-weight: 500;
-    font-size: 20px;
     line-height: 2.4;
     letter-spacing: 0.1em;
     background-color: #fff;
@@ -10567,8 +10631,8 @@ img.mfp-img {
       display: inline-block;
       font-family: YakuHanMP, 'Noto Serif JP', serif;
       font-weight: 500;
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(114, 201, 243, .6)));
-      background: linear-gradient(transparent 70%, rgba(114, 201, 243, .6) 70%);
+      /* background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(114, 201, 243, .6)));
+      background: linear-gradient(transparent 70%, rgba(114, 201, 243, .6) 70%); */
       -webkit-font-feature-settings: 'palt';
               font-feature-settings: 'palt'; }
       @media only screen and (max-width: 1023px) {
@@ -10585,10 +10649,39 @@ img.mfp-img {
         line-height: 2.14; } }
     .about .sec .feature .content__text span {
       line-height: 1.6;
-      font-size: 24px; }
+      font-size: 40px;
+      margin-right: 50px;
+      
+      position: relative;
+    }
       @media only screen and (max-width: 1023px) {
         .about .sec .feature .content__text span {
           font-size: 17px; } }
+
+  .about .sec .feature .content__text h1{
+    font-size: 35px;
+    width: 55%;
+  }
+
+  .about .sec .feature .content__text span::after{
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: -20px;
+      width: 1px;
+      height: 45px;
+      background: rgb(228, 228, 228);
+  }
+
+  .about .sec .feature .content__text p{
+    font-size: 15px;
+    width: 70%;
+    text-align: left;
+  }
+
+  .about .sec .feature .content__text .txt02{
+    width: 35%;
+  }
 
 .about .sec .global {
   position: relative;
