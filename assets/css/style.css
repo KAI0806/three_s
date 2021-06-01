@@ -1706,9 +1706,9 @@ img {
 
 .footer {
   padding-top: 72px; }
-  /* @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 1023px) {
     .footer {
-      padding-top: 42px; } } */
+      padding-top: 0px; } }
   .footer .inner {
     max-width: 76.47%;
     min-width: 960px;
@@ -1721,7 +1721,7 @@ img {
         padding: 0 8vw; } }
   .footer__recruit {
     background-color: #f5f5f5;
-  margin-top: 150px;
+  margin-top: 100px;
   }
     .footer__recruit .btn {
       display: -webkit-box;
