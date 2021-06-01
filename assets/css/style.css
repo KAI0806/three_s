@@ -5990,6 +5990,12 @@ img.mfp-img {
       margin: 70px auto;
       padding-top: 70px;
     }
+    @media only screen and (max-width: 767px) {
+      .discussion .formrun-embed{
+        padding: 0;
+        margin:0;
+      } 
+    }
 
     .discussion .card_in{
       background: #F2F2F2;
