@@ -1315,8 +1315,19 @@ img {
           .header__navi .navi .links:last-child {
             margin-bottom: 0; } }
       .header__navi .navi .links:nth-child(1) .links__ttl {
-        background-color: #72c9f3;
-        background-image: url("../img/common/header_nav01.png");
+        position: relative;
+        background-color: rgb(114, 200, 243);
+        background-image: url("../img/index/bg_feature.png");
+      }
+
+      .header__navi .navi .links:nth-child(1) .links__ttl::before{
+        content: '';
+        background-color: rgba(114, 200, 243,.9);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
       }
         
         .header__navi .navi .links:nth-child(1) .links__ttl__inner::before {
@@ -1334,7 +1345,19 @@ img {
               font-size: 15px; } }
       .header__navi .navi .links:nth-child(2) .links__ttl {
         background-color: #bdb07b;
-        background-image: url("../img/common/header_nav02.png"); }
+        position: relative;
+        background-image: url("../img/index/bg_work.png"); }
+
+      .header__navi .navi .links:nth-child(2) .links__ttl::before{
+        content: '';
+        background-color: rgba(189, 176, 123,.9);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+
         .header__navi .navi .links:nth-child(2) .links__ttl__inner::before {
           counter-increment: navnum 1;
           content: counter(navnum, decimal-leading-zero);
@@ -4730,6 +4753,7 @@ img.mfp-img {
 
 .sec--feature .banner {
   margin-bottom: 20px;
+  position: relative;
   background-color: #72c9f3;
   background-image: url("../img/index/bg_feature.png"); }
   @media only screen and (max-width: 1023px) {
@@ -4740,6 +4764,16 @@ img.mfp-img {
     .sec--feature .banner {
       width: auto;
       margin: 0 0 10px 8vw; } }
+
+.sec--feature .banner::before{
+  content: "";
+  background-color: rgba(114, 201, 243, .9);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
   .sec--feature .banner::after {
     content: "COMPANY";
     -webkit-writing-mode: vertical-rl;
@@ -4808,6 +4842,7 @@ img.mfp-img {
       margin-bottom: 80px; } }
   .sec--work .banner {
     padding: 8.823% 8.823% 5.882% 5.882%;
+    position: relative;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
@@ -4827,7 +4862,7 @@ img.mfp-img {
         margin: 8.33vw 120px 10px 0;
         padding: 15vw 17.33vw 0 8vw;
         width: auto;
-        background-color: #bdb07b;
+        background-color: #bdb07b 33%, 61%);
         background-size: cover;
         background-position: bottom right; } }
     @media only screen and (max-width: 767px) {
@@ -4836,7 +4871,18 @@ img.mfp-img {
         margin-top: 18.66vw;
         width: auto;
         padding: 26.26vw 8vw 18vw; } }
-    .sec--work .banner::after {
+        
+    .sec--work .banner::before{
+      content: '';
+      background-color: rgba(189, 176, 123,.9);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    
+        .sec--work .banner::after {
       content: "BUSINESS CONTENTS";
       left: 50%;
       top: -10%;
