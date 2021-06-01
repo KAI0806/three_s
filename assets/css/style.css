@@ -1405,6 +1405,18 @@ img {
         background: white;
         margin-top: 10px;
         }
+
+        @media only screen and (max-width: 767px) {
+          .header__navi .navi .links:nth-child(1) .links__ttl__inner h1 {
+            line-height: 130%;
+            height: 24px;
+            }
+
+          .links_txt{
+            font-size: 20px;
+           } 
+          }
+
         @media only screen and (max-width: 1023px) {
           .header__navi .navi .links:nth-child(2) .links__ttl__inner h1 {
             width: 162.36px;
@@ -1443,7 +1455,7 @@ img {
           .header__navi .navi .links__ttl {
             margin-bottom: 0;
             font-size: 32px;
-            height: 140px; }
+            height: 200px; }
             .header__navi .navi .links__ttl span {
               position: absolute;
               right: 0;
