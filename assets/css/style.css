@@ -1659,6 +1659,12 @@ img {
             margin-bottom: 100px;
           }
 
+          @media only screen and (max-width: 767px) {
+            .nav_contact{
+              margin-bottom: 10px;
+            }
+          }
+
           .nav_contact a{
             background: linear-gradient(black, white);
             color: white;
