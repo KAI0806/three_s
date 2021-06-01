@@ -4779,7 +4779,7 @@ img.mfp-img {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
-    left: -0.5em;
+    left: -4%;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%); }
