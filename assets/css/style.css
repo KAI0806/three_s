@@ -1406,17 +1406,6 @@ img {
         margin-top: 10px;
         }
 
-        @media only screen and (max-width: 767px) {
-          .header__navi .navi .links:nth-child(1) .links__ttl__inner h1 {
-            line-height: 130%;
-            height: 24px;
-            }
-
-          .links_txt{
-            font-size: 20px;
-           } 
-          }
-
         @media only screen and (max-width: 1023px) {
           .header__navi .navi .links:nth-child(2) .links__ttl__inner h1 {
             width: 162.36px;
@@ -1428,6 +1417,24 @@ img {
           .header__navi .navi .links:nth-child(3) .links__ttl__inner h1 {
             width: 192.7px;
             height: 20px; } }
+
+            @media only screen and (max-width: 767px) {
+              .header__navi .navi .links:nth-child(1) .links__ttl__inner h1 {
+                line-height: 130%;
+                height: 24px;
+                }
+    
+              .header__navi .navi .links:nth-child(2) .links__ttl__inner h1 {
+                line-height: 130%;
+                height: 24px;
+                width: 194.34px;
+                }
+    
+              .links_txt{
+                font-size: 20px;
+               } 
+              }
+
       .header__navi .navi .links__ttl {
         position: relative;
         margin-bottom: 50px;
