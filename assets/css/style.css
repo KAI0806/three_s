@@ -1418,9 +1418,9 @@ img {
           text-align: left;
         }
 
-        @media only screen and (max-width: 1023px) {
+        @media only screen and (max-width: 767px) {
           .header__navi .navi .links:nth-child(1) .links__ttl__inner h1 {
-            width: 194.34px;
+            width: 207.34px;
             height: 20px; } }
       .header__navi .navi .links:nth-child(2) .links__ttl__inner h1 {
         line-height: 180%;
@@ -1428,7 +1428,7 @@ img {
         margin-top: 10px;
         }
 
-        @media only screen and (max-width: 1023px) {
+        @media only screen and (max-width: 767px) {
           .header__navi .navi .links:nth-child(2) .links__ttl__inner h1 {
             width: 162.36px;
             height: 20px; } }
@@ -1755,7 +1755,7 @@ img {
 
 .footer {
   padding-top: 72px; }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 767px) {
     .footer {
       padding-top: 0px; } }
   .footer .inner {
@@ -4161,7 +4161,7 @@ img.mfp-img {
         font-size: 8.58vw; } }
     @media only screen and (max-width: 1023px) {
       .banner::after {
-        font-size: 18.33vw; } }
+        font-size: 13.33vw; } }
     @media only screen and (max-width: 767px) {
       .banner::after {
         font-size: 18.33vw; } }
@@ -5026,7 +5026,7 @@ img.mfp-img {
           width: 1500px; }
           @media only screen and (max-width: 1023px) {
             .sec--work .banner__ttl__inner > div:nth-child(2) {
-              width: 140px; } }
+              width: 37.06vw; } }
           /* .sec--work .banner__ttl__inner > div:nth-child(2) img {
             width: 9.72vw; } */
             /* @media only screen and (max-width: 1023px) {
@@ -5037,7 +5037,7 @@ img.mfp-img {
           width: 1500px; }
           @media only screen and (max-width: 1023px) {
             .sec--work .banner__ttl__inner > div:nth-child(3) {
-              width: 150px; } }
+              width: 37.06vw; } }
           /* .sec--work .banner__ttl__inner > div:nth-child(3) img {
             width: 14.16vw; }
             @media only screen and (max-width: 1023px) {
