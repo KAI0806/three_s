@@ -1483,8 +1483,13 @@ img {
         @media only screen and (max-width: 1023px) {
           .header__navi .navi .links__ttl {
             margin-bottom: 0;
-            font-size: 32px;
-            height: 200px; }
+            font-size: 25px;
+            height: 282px; }
+            @media only screen and (max-width: 767px) {
+              .header__navi .navi .links__ttl {
+                margin-bottom: 0;
+                font-size: 32px;
+                height: 200px; }
             .header__navi .navi .links__ttl span {
               position: absolute;
               right: 0;
@@ -1679,6 +1684,12 @@ img {
             align-items: center;
             height: 100px;
             margin-bottom: 100px;
+          }
+
+          @media only screen and (max-width: 767px) {
+            .nav_contact{
+              margin-bottom: 45px;
+            }
           }
 
           @media only screen and (max-width: 767px) {
@@ -5964,27 +5975,38 @@ img.mfp-img {
     .comp_left,.comp_right{
       width: 50%;
     }
-      @media only screen and (max-width: 1023px) {
-        .message .philosophy__text h1 {
-          /* padding: 35px 20px; */
-          font-size: 10px;
-          line-height: 1.8;
-          letter-spacing: 0.09em; }
-        
-        .comp_left{
-          width: 30%;
-        }
-
-        .comp_right{
-          width: 70%;
-        }
-        }
 
 
+        @media only screen and (max-width: 1023px) {
+          .message .philosophy__text_in{
+            padding: 15px 0;
+          }}
+
+          @media only screen and (max-width: 1023px) {
+            .message .philosophy__text h1 {
+              /* padding: 35px 20px; */
+              font-size: 15px;
+              line-height: 1.8;
+              letter-spacing: 0.09em; }
+            
+            .comp_left{
+              width: 30%;
+            }
+    
+            .comp_right{
+              width: 70%;
+            }
+            }
         @media only screen and (max-width: 767px) {
           .message .philosophy__text_in{
             padding: 15px 0;
           }
+
+          .message .philosophy__text h1 {
+            /* padding: 35px 20px; */
+            font-size: 10px;
+            line-height: 1.8;
+            letter-spacing: 0.09em; }
     
     
         .comp_left{
