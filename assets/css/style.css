@@ -5491,7 +5491,7 @@ img.mfp-img {
     @media only screen and (max-width: 1023px) {
       .message .ceo::before {
         width: 100%;
-        height: 322px;
+        height: 270px;
         background: url("../img/feature/message/bg_ceo_sp.png") no-repeat center;
         background-size: cover; } }
   .message .ceo .wrap {
@@ -5571,7 +5571,7 @@ img.mfp-img {
       @media only screen and (max-width: 1023px) {
         .message .ceo__text dd {
           width: 180px;
-          height: 30px;
+          height: 42px;
           padding-bottom: 0;
           font-size: 30px;
         }
@@ -5595,8 +5595,9 @@ img.mfp-img {
         /* margin-bottom: 30px; */
         width: 80%;
         padding-top: 45.49%;
-      margin-top: 100px;
-      } }
+      margin-top: 40px;
+      }
+    }
 
   .ceo_phylo{
     text-align: left;
@@ -5605,6 +5606,14 @@ img.mfp-img {
     line-height: 300%;
     letter-spacing: 10px;
     font-family: 'Cormorant Garamond', serif;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .ceo_phylo{
+      margin: 200px 18% 50px 18%;
+      font-size: 15px;
+      line-height: 250%;
+    }
   }
 
 .message .message-text {
@@ -5941,11 +5950,7 @@ img.mfp-img {
               box-shadow: 0px 10px 25px 0px rgba(29, 50, 68, .02); 
     }
 
-    @media only screen and (max-width: 767px) {
-      .message .philosophy__text_in{
-        padding: 15px 0;
-      } 
-    }
+    
 
     .message .philosophy__text_in::before{
       content: "";
@@ -5954,7 +5959,7 @@ img.mfp-img {
       background: black;
     }
 
-    .message .philosophy__text h1{
+    .comp_left,.comp_right{
       width: 50%;
     }
       @media only screen and (max-width: 1023px) {
@@ -5968,6 +5973,22 @@ img.mfp-img {
           width: 30%;
         }
 
+        .comp_right{
+          width: 70%;
+        }
+        }
+
+
+        @media only screen and (max-width: 767px) {
+          .message .philosophy__text_in{
+            padding: 15px 0;
+          }
+    
+    
+        .comp_left{
+          width: 30%;
+        }
+    
         .comp_right{
           width: 70%;
         }
