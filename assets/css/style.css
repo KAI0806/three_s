@@ -5552,9 +5552,11 @@ img.mfp-img {
       margin-bottom: 30px; }
       @media only screen and (max-width: 1023px) {
         .message .ceo__text dt {
-          margin: 0 25px 0 0;
+          margin: 0 0 0 0;
           padding: 20px 0;
-          font-size: 12px; } }
+          font-size: 10px;
+        width: 25%;
+        } }
     .message .ceo__text dd {
       padding-bottom: 50px;
       text-align: center; 
@@ -5568,9 +5570,13 @@ img.mfp-img {
     }
       @media only screen and (max-width: 1023px) {
         .message .ceo__text dd {
-          width: 140px;
+          width: 180px;
           height: 30px;
           padding-bottom: 0; }
+
+        .message .ceo__text dd span{
+          font-size: 1px;
+        }
  }
   .message .ceo__img {
     width: calc(70% - 360px);
@@ -5584,9 +5590,11 @@ img.mfp-img {
     background-position: center; }
     @media only screen and (max-width: 1023px) {
       .message .ceo__img {
-        margin-bottom: 30px;
-        width: 100%;
-        padding-top: 63.49%; } }
+        /* margin-bottom: 30px; */
+        width: 80%;
+        padding-top: 45.49%;
+      margin-top: 100px;
+      } }
 
   .ceo_phylo{
     text-align: left;
@@ -5931,6 +5939,12 @@ img.mfp-img {
               box-shadow: 0px 10px 25px 0px rgba(29, 50, 68, .02); 
     }
 
+    @media only screen and (max-width: 767px) {
+      .message .philosophy__text_in{
+        padding: 15px 0;
+      } 
+    }
+
     .message .philosophy__text_in::before{
       content: "";
       height: 2px;
@@ -5943,7 +5957,7 @@ img.mfp-img {
     }
       @media only screen and (max-width: 1023px) {
         .message .philosophy__text h1 {
-          padding: 35px 20px;
+          /* padding: 35px 20px; */
           font-size: 13px;
           line-height: 1.8;
           letter-spacing: 0.09em; } }
