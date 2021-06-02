@@ -1691,7 +1691,9 @@ img {
             background: linear-gradient(black, white);
             color: white;
             font-size: 25px;
-            padding: 20px 100%;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
             font-family: 'Cormorant Garamond', serif;
             letter-spacing: 5px;
           }
