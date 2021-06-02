@@ -5572,7 +5572,9 @@ img.mfp-img {
         .message .ceo__text dd {
           width: 180px;
           height: 30px;
-          padding-bottom: 0; }
+          padding-bottom: 0;
+          font-size: 30px;
+        }
 
         .message .ceo__text dd span{
           font-size: 1px;
@@ -5958,9 +5960,18 @@ img.mfp-img {
       @media only screen and (max-width: 1023px) {
         .message .philosophy__text h1 {
           /* padding: 35px 20px; */
-          font-size: 13px;
+          font-size: 1px;
           line-height: 1.8;
-          letter-spacing: 0.09em; } }
+          letter-spacing: 0.09em; }
+        
+        .comp_left{
+          width: 30%;
+        }
+
+        .comp_right{
+          width: 70%;
+        }
+        }
     
     .philosophy__text_in div{
       display: flex;
