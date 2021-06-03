@@ -4954,7 +4954,7 @@ img.mfp-img {
         margin: 8.33vw 120px 10px 0;
         padding: 15vw 17.33vw 0 8vw;
         width: auto;
-        background-color: #bdb07b 33%, 61%);
+        background-color: #bdb07b 33%, 61%;
         background-size: cover;
         background-position: bottom right; } }
     @media only screen and (max-width: 767px) {
@@ -16003,4 +16003,7 @@ img.mfp-img {
       .work .else-wrap a[target="_blank"].link .link__ttl__jp::after {
         width: 12.5px;
         height: 9.5px;
-        margin-left: 8px; } }
+        margin-left: 8px;
+       } 
+      }
+    }
