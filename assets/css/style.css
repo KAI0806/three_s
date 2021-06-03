@@ -6176,10 +6176,8 @@ img.mfp-img {
       @media only screen and (max-width: 1023px) {
         .discussion .kv__img {
           height: 0;
-          padding-top: 44%; } }
-      @media only screen and (max-width: 1023px) {
-        .discussion .kv__img {
-          padding-top: 71%; } }
+          padding-top: 25%; } }
+
     .discussion .kv__ttl-area {
       position: absolute;
       left: 40px;
