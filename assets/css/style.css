@@ -5603,9 +5603,17 @@ img.mfp-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
+
     @media only screen and (max-width: 1023px) {
       .message .ceo__img {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .message .ceo__img {
         /* margin-bottom: 30px; */
+        display: block;
         width: 80%;
         padding-top: 45.49%;
       margin-top: 40px;
