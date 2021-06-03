@@ -1484,7 +1484,7 @@ img {
           .header__navi .navi .links__ttl {
             margin-bottom: 0;
             font-size: 25px;
-            height: 282px; }
+            height: 282px; }}
             @media only screen and (max-width: 767px) {
               .header__navi .navi .links__ttl {
                 margin-bottom: 0;
@@ -16006,4 +16006,3 @@ img.mfp-img {
         margin-left: 8px;
        } 
       }
-    }
