@@ -1686,7 +1686,7 @@ img {
             margin-bottom: 100px;
           }
 
-          @media only screen and (max-width: 767px) {
+          @media only screen and (max-width: 1023px) {
             .nav_contact{
               margin-bottom: 45px;
             }
@@ -6122,7 +6122,7 @@ img.mfp-img {
       font-weight: 600;
     }
     
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 1023px) {
       .discussion .kv_txt{
         display: block;
         padding: 0 10px;
