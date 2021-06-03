@@ -5621,6 +5621,14 @@ img.mfp-img {
     font-family: 'Cormorant Garamond', serif;
   }
 
+  @media only screen and (max-width: 1023px) {
+    .ceo_phylo{
+      margin: 100px 18%;
+      font-size: 25px;
+      line-height: 240%;
+    }
+  }
+
   @media only screen and (max-width: 767px) {
     .ceo_phylo{
       margin: 200px 18% 50px 18%;
