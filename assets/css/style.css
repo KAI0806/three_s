@@ -5662,8 +5662,18 @@ img.mfp-img {
   @media only screen and (max-width: 767px) {
     .ceo_phylo{
       margin: 200px 18% 50px 18%;
+    }
+
+    .ceo_phylo h1{
       font-size: 15px;
-      line-height: 250%;
+      line-height: 150%;
+      letter-spacing: 10px;
+    }
+
+    .ceo_phylo h3{
+      font-size: 10px;
+      margin-top: 20px;
+      line-height: 100%;
     }
   }
 
