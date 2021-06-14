@@ -5635,11 +5635,20 @@ img.mfp-img {
 
   .ceo_phylo{
     text-align: left;
-    margin: 100px 18%;
+    margin: 100px 10%;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .ceo_phylo h1{
     font-size: 25px;
     line-height: 300%;
     letter-spacing: 10px;
-    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .ceo_phylo h3{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 200%;
   }
 
   @media only screen and (max-width: 1023px) {
@@ -6157,6 +6166,7 @@ img.mfp-img {
     .discussion .card_in{
       background: #F2F2F2;
       padding: 15px;
+      height: 510px;
       border-top: 5px solid #72c9f3;
     }
 
@@ -6212,6 +6222,10 @@ img.mfp-img {
         font-size: 20px;
         margin-top: 20px;
       } 
+
+      .discussion .card_in{
+        height: auto;
+      }
     }
 
     .discussion .kv__ttl {
@@ -6466,7 +6480,7 @@ img.mfp-img {
     .discussion .sec--profile .inner {
       padding: 0;
       max-width: 960px;
-      margin: 0 auto;
+      margin: 20px auto;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
